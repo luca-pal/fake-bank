@@ -120,19 +120,19 @@ public class BankInterface {
     public void logInAttempt(){
         System.out.println("\n--- Log In ---");
         System.out.print("Enter your account number: ");
-        String cardNumber = sc.nextLine();
+        String accountNumber = sc.nextLine();
 
         System.out.print("Enter your PIN: ");
         String pin = sc.nextLine();
 
-        if (!bankService.validateLogin(cardNumber, pin)) {
+        if (!bankService.validateLogin(accountNumber, pin)) {
             System.out.println("\nLogin failed: incorrect account number or PIN.\n");
             return;
         }
 
         System.out.println("\nLogin successful!");
         System.out.println("Welcome back to Fake Bank.\n");
-        loggedIn(cardNumber);
+        loggedIn(accountNumber);
     }
 
     /**
