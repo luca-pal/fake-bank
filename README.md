@@ -1,4 +1,4 @@
-# 💰 Fake Bank – Java Console Banking System
+# 💰 FakeBank – Java Console Banking System
 
 A Java-based banking system that simulates real-world backend logic with a focus on clean architecture, data persistence, and testable service design.
 Developed independently as a hands-on practice project, it uses JDBC for SQLite integration, Gradle for build automation, and JUnit + Mockito for test coverage, all structured in a modular and maintainable way.

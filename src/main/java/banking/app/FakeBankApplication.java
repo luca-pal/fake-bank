@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-public class Main {
+public class FakeBankApplication {
     public static void main(String[] args) {
 
         // Ensure logs directory exists
@@ -32,7 +32,7 @@ public class Main {
             }
         }
 
-        Logger logger = Logger.getLogger(Main.class.getName());
+        Logger logger = Logger.getLogger(FakeBankApplication.class.getName());
         logger.info("Using database file: " + dbFileName);
 
         DatabaseManager db = new DatabaseManager(dbFileName);
