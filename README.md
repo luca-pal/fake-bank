@@ -77,4 +77,4 @@ This will automatically:
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-You’re free to use, modify, and share it — just don’t hold me liable if something breaks. 👾
+You’re free to use, modify, and share it... Just don’t hold me liable if something breaks. 👾
